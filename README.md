@@ -37,5 +37,5 @@ An end-to-end Data Analytics project focused on EV (Electric Vehicle) Charging S
 ---
 
 ## 👨‍💻 Connect with Me
-* **LinkedIn:** [Your Name](Your-LinkedIn-Profile-Link)
-* **Email:** your.email@example.com
+* **LinkedIn:** [Prem Mohite] ( https://www.linkedin.com/in/prem-mohite-007629380?utm_source=share_via&utm_content=profile&utm_medium=member_android )
+* **Email:** premmohite333@gmail.com 
