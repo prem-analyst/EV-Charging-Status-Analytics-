@@ -1,23 +1,23 @@
 # ⚡ EV Charging Station Analytics Dashboard
 
-An end-to-end data analytics project mapping EV charging infrastructure performance, revenue generation, and user behavioral patterns. This project demonstrates full-stack analytics capabilities using **SQL** for data extraction, **Python** for Exploratory Data Analysis (EDA), and **Power BI** for dynamic executive dashboarding.
+An end-to-end data analytics project mapping EV charging infrastructure performance, revenue generation, and user behavioral patterns. This project demonstrates full-stack analytics capabilities using SQL for data extraction, Python for Exploratory Data Analysis (EDA), and Power BI for dynamic executive dashboarding.
 
 ---
 
 ## 🚀 Project Overview & Core Architecture
 
-The goal of this project is to optimize charging grid load efficiency, track corporate financial targets, and analyze vehicle-specific performance patterns. 
+The goal of this project is to optimize charging grid load efficiency, track corporate financial targets, and analyze vehicle-specific performance patterns.
 
 The pipeline is split into three core modules:
-1. **Data Extraction & Logic Definition (SQL)**
-2. **Exploratory Analysis & Profiling (Python)**
-3. **Advanced Visual Analytics & KPI Tracking (Power BI)**
+1. Data Extraction & Logic Definition (SQL)
+2. Exploratory Analysis & Profiling (Python)
+3. Advanced Visual Analytics & KPI Tracking (Power BI)
 
 ---
 
 ## 🛢️ Phase 1: Data Extraction & Analysis (SQL Queries)
 
-*The raw transactional data was initially queried and processed via SQL to simulate production-level database management.*
+The raw transactional data was initially queried and processed via SQL to simulate production-level database management.
 
 ### 1. Total Financial Yield & Energy Disbursed
 ```sql
