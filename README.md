@@ -1,27 +1,22 @@
-Markdown
-# ⚡ EV Charging Station Analytics Dashboard
-
+⚡ EV Charging Station Analytics Dashboard
 An end-to-end data analytics project mapping EV charging infrastructure performance, revenue generation, and user behavioral patterns. This project demonstrates full-stack analytics capabilities using SQL for data extraction, Python for Exploratory Data Analysis (EDA), and Power BI for dynamic executive dashboarding.
 
----
-
-## 🚀 Project Overview & Core Architecture
-
+🚀 Project Overview & Core Architecture
 The goal of this project is to optimize charging grid load efficiency, track corporate financial targets, and analyze vehicle-specific performance patterns.
 
 The pipeline is split into three core modules:
-1. Data Extraction & Logic Definition (SQL)
-2. Exploratory Analysis & Profiling (Python)
-3. Advanced Visual Analytics & KPI Tracking (Power BI)
 
----
+Data Extraction & Logic Definition (SQL)
 
-## 🛢️ Phase 1: Data Extraction & Analysis (SQL Queries)
+Exploratory Analysis & Profiling (Python)
 
+Advanced Visual Analytics & KPI Tracking (Power BI)
+
+🛢️ Phase 1: Data Extraction & Analysis (SQL Queries)
 The raw transactional data was initially queried and processed via SQL to simulate production-level database management.
 
-### 1. Total Financial Yield & Energy Disbursed
-```sql
+1. Total Financial Yield & Energy Disbursed
+SQL
 SELECT 
     ROUND(SUM(Total_Cost_INR), 2) AS Total_Revenue_INR,
     ROUND(SUM(Energy_Consumed_kWh), 2) AS Total_Energy_Disbursed_kWh
@@ -54,7 +49,7 @@ df['Charging_Speed_KWh_Min'] = df['Energy_Consumed_kWh'] / df['Charging_Duration
 📊 Phase 3: Power BI Business Intelligence & DAX Engineering
 The dynamic report features an Executive Overview (Page 1) and Infrastructure Performance (Page 2) tailored for stakeholders.
 
-🧠 Core DAX / Custom Metrics Created:
+🧠 Core DAX / Custom Metrics Created
 Dynamic Time Segment Routing:
 
 Code snippet
@@ -63,7 +58,7 @@ Performance Speed Tracking Metric:
 
 Code snippet
 Charging_Speed_KWh_Min = DIVIDE(Sheet1[Energy_Consumed_kWh], Sheet1[Charging_Duration_Mins], 0)
-🎯 Business KPIs Tracked:
+🎯 Business KPIs Tracked
 Revenue Performance: Achieved ₹839.05K against a corporate target of ₹1M (84.2% Target Completion).
 
 Grid Energy Load Tracker: Disbursed 45.27K KWh against a supply threshold target of 50K KWh (90.7% Efficiency Maintained).
